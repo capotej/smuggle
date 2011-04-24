@@ -1,0 +1,3 @@
+module Smuggle
+  # Your code goes here...
+end

@@ -1,0 +1,28 @@
+# Logfile created on 2011-04-23 19:10:18 -0700 by logger.rb/25413
+  [1m[36mSQL (14.9ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (11.2ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (11.1ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[36mSQL (13.8ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.8ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.7ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.0ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (9.6ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM fish
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.1ms)[0m  DELETE FROM pets
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "universes" ("name") VALUES ('hey')
+  [1m[36mUniverse Load (0.1ms)[0m  [1mSELECT "universes".* FROM "universes" WHERE "universes"."id" = 1 LIMIT 1[0m
