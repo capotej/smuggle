@@ -26,3 +26,1001 @@
 [0m
   [1m[35mAREL (0.1ms)[0m  INSERT INTO "universes" ("name") VALUES ('hey')
   [1m[36mUniverse Load (0.1ms)[0m  [1mSELECT "universes".* FROM "universes" WHERE "universes"."id" = 1 LIMIT 1[0m
+  [1m[36mSQL (13.5ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.9ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (12.6ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.6ms)[0m  DELETE FROM universes
+  [1m[36mSQL (11.9ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.6ms)[0m  DELETE FROM countries
+  [1m[36mSQL (11.2ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.1ms)[0m  DELETE FROM pets
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "universes" ("name") VALUES ('hey')
+  [1m[36mUniverse Load (0.1ms)[0m  [1mSELECT "universes".* FROM "universes" WHERE "universes"."id" = 1 LIMIT 1[0m
+  [1m[36mSQL (16.8ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (11.1ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (11.2ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (11.1ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (9.5ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM countries
+  [1m[36mSQL (13.4ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (12.5ms)[0m  DELETE FROM pets
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "universes" ("name") VALUES ('hey')
+  [1m[36mUniverse Load (0.1ms)[0m  [1mSELECT "universes".* FROM "universes" WHERE "universes"."id" = 1 LIMIT 1[0m
+  [1m[36mSQL (14.8ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.7ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.9ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.9ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM universes
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.6ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (16.6ms)[0m  DELETE FROM fish
+  [1m[36mSQL (15.7ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM pets
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "universes" ("name") VALUES ('hey')
+  [1m[36mUniverse Load (0.2ms)[0m  [1mSELECT "universes".* FROM "universes" WHERE "universes"."id" = 1 LIMIT 1[0m
+  [1m[36mSQL (17.3ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.9ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.9ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (9.6ms)[0m  DELETE FROM universes
+  [1m[36mSQL (11.0ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.1ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM fish
+  [1m[36mSQL (11.9ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (11.1ms)[0m  DELETE FROM pets
+  [1m[36mSQL (9.6ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (11.1ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM people
+  [1m[36mSQL (18.1ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[36mSQL (14.5ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.4ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (12.1ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.0ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (12.4ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.6ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (13.9ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.8ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM pets
+  [1m[36mSQL (12.0ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (9.6ms)[0m  DELETE FROM people
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (13.8ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (16.5ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (12.6ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.6ms)[0m  DELETE FROM people
+  [1m[36mSQL (11.6ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (9.5ms)[0m  DELETE FROM universes
+  [1m[36mSQL (18.6ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (11.7ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (369.2ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (12.4ms)[0m  DELETE FROM pets
+  [1m[36mSQL (9.2ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.5ms)[0m  DELETE FROM planets
+  [1m[36mSQL (18.1ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.3ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (15.2ms)[0m  DELETE FROM people
+  [1m[36mSQL (17.0ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (15.5ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM planets
+  [1m[36mSQL (11.2ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (12.1ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (11.1ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.8ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM universes
+  [1m[36mSQL (12.8ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.8ms)[0m  DELETE FROM pets
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.6ms)[0m  DELETE FROM planets
+  [1m[36mSQL (12.7ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (11.2ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (18.0ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM planets
+  [1m[36mSQL (13.1ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (11.2ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (11.5ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.7ms)[0m  DELETE FROM universes
+  [1m[36mSQL (10.0ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM countries
+  [1m[36mSQL (11.0ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (11.3ms)[0m  DELETE FROM pets
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.1ms)[0m  DELETE FROM planets
+  [1m[36mSQL (11.0ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.9ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (14.4ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (16.5ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.9ms)[0m  DELETE FROM people
+  [1m[36mSQL (12.1ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.8ms)[0m  DELETE FROM universes
+  [1m[36mSQL (17.5ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (15.4ms)[0m  DELETE FROM countries
+  [1m[36mSQL (15.9ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM fish
+  [1m[36mSQL (16.1ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (15.2ms)[0m  DELETE FROM pets
+  [1m[36mSQL (15.5ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (15.7ms)[0m  DELETE FROM planets
+  [1m[36mSQL (17.1ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (323.5ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (17.5ms)[0m  DELETE FROM people
+  [1m[36mSQL (14.5ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (17.4ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (15.3ms)[0m  DELETE FROM planets
+  [1m[36mSQL (16.0ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (15.7ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.3ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (16.0ms)[0m  DELETE FROM people
+  [1m[36mSQL (14.6ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (17.1ms)[0m  DELETE FROM universes
+  [1m[36mSQL (16.1ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (16.0ms)[0m  DELETE FROM countries
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM fish
+  [1m[36mSQL (15.8ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM pets
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM planets
+  [1m[36mSQL (16.4ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.7ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM people
+  [1m[36mSQL (17.5ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (16.2ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM planets
+  [1m[36mSQL (12.7ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (11.0ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (11.4ms)[0m  DELETE FROM people
+  [1m[36mSQL (11.0ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM universes
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (11.0ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.8ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM pets
+  [1m[36mSQL (11.7ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM planets
+  [1m[36mSQL (16.8ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (15.5ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (17.5ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (13.8ms)[0m  DELETE FROM people
+  [1m[36mSQL (16.2ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (17.0ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (16.8ms)[0m  DELETE FROM planets
+  [1m[36mSQL (17.3ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (20.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (17.0ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (15.7ms)[0m  DELETE FROM people
+  [1m[36mSQL (16.2ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (18.1ms)[0m  DELETE FROM universes
+  [1m[36mSQL (15.3ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (17.3ms)[0m  DELETE FROM countries
+  [1m[36mSQL (16.8ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (14.1ms)[0m  DELETE FROM fish
+  [1m[36mSQL (15.9ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (16.5ms)[0m  DELETE FROM pets
+  [1m[36mSQL (15.3ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (15.7ms)[0m  DELETE FROM planets
+  [1m[36mSQL (16.4ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (16.0ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.7ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (18.8ms)[0m  DELETE FROM people
+  [1m[36mSQL (16.4ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (15.3ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.5ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.7ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (11.9ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (12.2ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM countries
+  [1m[36mSQL (11.1ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (14.7ms)[0m  DELETE FROM fish
+  [1m[36mSQL (11.6ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM pets
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM planets
+  [1m[36mSQL (11.0ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.9ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.1ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (13.3ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (18.0ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.1ms)[0m  DELETE FROM planets
+  [1m[36mSQL (11.3ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (11.3ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (11.1ms)[0m  DELETE FROM people
+  [1m[36mSQL (11.5ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (14.2ms)[0m  DELETE FROM universes
+  [1m[36mSQL (16.1ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (16.8ms)[0m  DELETE FROM countries
+  [1m[36mSQL (15.4ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM fish
+  [1m[36mSQL (15.9ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (15.4ms)[0m  DELETE FROM pets
+  [1m[36mSQL (15.8ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (16.0ms)[0m  DELETE FROM planets
+  [1m[36mSQL (16.3ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (16.1ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM people
+  [1m[36mSQL (16.0ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[36mSQL (15.4ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (13.2ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (11.0ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.6ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (11.9ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (12.4ms)[0m  DELETE FROM fish
+  [1m[36mSQL (11.1ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.9ms)[0m  DELETE FROM pets
+  [1m[36mSQL (11.0ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (12.1ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (12.2ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM people
+  [1m[36mSQL (11.1ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[36mSQL (16.1ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.8ms)[0m  DELETE FROM planets
+  [1m[36mSQL (11.0ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.8ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM universes
+  [1m[36mSQL (13.6ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.7ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (11.5ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.9ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM pets
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.9ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.2ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (16.0ms)[0m  DELETE FROM people
+  [1m[36mSQL (15.8ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (15.9ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.9ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (13.7ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.8ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM universes
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (11.1ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.6ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.1ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.1ms)[0m  DELETE FROM pets
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (11.7ms)[0m  DELETE FROM planets
+  [1m[36mSQL (26.4ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (27.2ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (11.2ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM fish
+  [1m[36mSQL (9.9ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM pets
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM planets
+  [1m[36mSQL (19.6ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (11.2ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (13.2ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (15.3ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM planets
+  [1m[36mSQL (11.1ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.7ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.9ms)[0m  DELETE FROM people
+  [1m[36mSQL (11.2ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.5ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.8ms)[0m  DELETE FROM countries
+  [1m[36mSQL (17.7ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (15.7ms)[0m  DELETE FROM fish
+  [1m[36mSQL (15.8ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (15.9ms)[0m  DELETE FROM pets
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (15.7ms)[0m  DELETE FROM planets
+  [1m[36mSQL (15.9ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (16.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (16.7ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (15.4ms)[0m  DELETE FROM people
+  [1m[36mSQL (18.0ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (14.8ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.1ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM people
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM universes
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.1ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.8ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM pets
+  [1m[36mSQL (9.1ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.3ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.9ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (9.7ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (17.0ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.7ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM people
+  [1m[36mSQL (12.4ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM universes
+  [1m[36mSQL (8.9ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (12.8ms)[0m  DELETE FROM pets
+  [1m[36mSQL (9.4ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.2ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.9ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (9.9ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (12.7ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (13.8ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (11.3ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (14.1ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (15.9ms)[0m  DELETE FROM people
+  [1m[36mSQL (15.4ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (16.9ms)[0m  DELETE FROM universes
+  [1m[36mSQL (15.5ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (17.2ms)[0m  DELETE FROM countries
+  [1m[36mSQL (16.4ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (14.9ms)[0m  DELETE FROM fish
+  [1m[36mSQL (17.1ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (14.8ms)[0m  DELETE FROM pets
+  [1m[36mSQL (15.3ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM planets
+  [1m[36mSQL (15.8ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (16.4ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (18.4ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (17.2ms)[0m  DELETE FROM people
+  [1m[36mSQL (15.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (15.7ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (15.3ms)[0m  DELETE FROM planets
+  [1m[36mSQL (16.1ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (15.6ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (16.0ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (15.4ms)[0m  DELETE FROM people
+  [1m[36mSQL (18.1ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (15.6ms)[0m  DELETE FROM universes
+  [1m[36mSQL (15.4ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (16.6ms)[0m  DELETE FROM countries
+  [1m[36mSQL (15.4ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM fish
+  [1m[36mSQL (16.3ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (15.7ms)[0m  DELETE FROM pets
+  [1m[36mSQL (15.3ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM planets
+  [1m[36mSQL (16.5ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (19.4ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (16.5ms)[0m  DELETE FROM people
+  [1m[36mSQL (16.2ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (16.5ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.6ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.8ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM people
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (9.5ms)[0m  DELETE FROM fish
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (9.6ms)[0m  DELETE FROM pets
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (11.0ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (9.5ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.7ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (14.3ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.1ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM people
+  [1m[36mSQL (17.3ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.1ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.3ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.8ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM fish
+  [1m[36mSQL (9.9ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.9ms)[0m  DELETE FROM pets
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.6ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.5ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.1ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.5ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.0ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.8ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (9.7ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM pets
+  [1m[36mSQL (11.9ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (11.0ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.9ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.5ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.1ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (15.2ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (12.2ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.4ms)[0m  DELETE FROM people
+  [1m[36mSQL (11.8ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (9.7ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.5ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM countries
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.1ms)[0m  DELETE FROM fish
+  [1m[36mSQL (9.5ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM pets
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.3ms)[0m  DELETE FROM planets
+  [1m[36mSQL (16.7ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (16.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (15.6ms)[0m  DELETE FROM people
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (16.2ms)[0m  DELETE FROM planets
+  [1m[36mSQL (15.4ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (15.5ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.6ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM people
+  [1m[36mSQL (15.4ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (16.8ms)[0m  DELETE FROM universes
+  [1m[36mSQL (16.0ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (17.0ms)[0m  DELETE FROM countries
+  [1m[36mSQL (15.3ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (15.9ms)[0m  DELETE FROM fish
+  [1m[36mSQL (16.0ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM pets
+  [1m[36mSQL (15.0ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (17.0ms)[0m  DELETE FROM planets
+  [1m[36mSQL (15.4ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.5ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM people
+  [1m[36mSQL (16.1ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (13.9ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.7ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.8ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.1ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.2ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.9ms)[0m  DELETE FROM fish
+  [1m[36mSQL (10.0ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM pets
+  [1m[36mSQL (10.0ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.6ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.0ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.9ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.6ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM people
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (16.2ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (15.6ms)[0m  DELETE FROM planets
+  [1m[36mSQL (15.8ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (15.4ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (15.8ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (16.0ms)[0m  DELETE FROM people
+  [1m[36mSQL (15.2ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (15.9ms)[0m  DELETE FROM universes
+  [1m[36mSQL (15.8ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (16.3ms)[0m  DELETE FROM countries
+  [1m[36mSQL (16.1ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (15.5ms)[0m  DELETE FROM fish
+  [1m[36mSQL (16.5ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (15.7ms)[0m  DELETE FROM pets
+  [1m[36mSQL (15.0ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM planets
+  [1m[36mSQL (16.2ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (16.1ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (16.2ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (17.4ms)[0m  DELETE FROM people
+  [1m[36mSQL (14.2ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[36mSQL (13.4ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.2ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.0ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (11.6ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (12.2ms)[0m  DELETE FROM people
+  [1m[36mSQL (12.2ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (9.4ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.2ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM countries
+  [1m[36mSQL (9.5ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM fish
+  [1m[36mSQL (13.3ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM pets
+  [1m[36mSQL (9.6ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.6ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (9.7ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.3ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (15.7ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM planets
+  [1m[36mSQL (11.3ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (10.7ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.3ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM people
+  [1m[36mSQL (17.4ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (13.7ms)[0m  DELETE FROM universes
+  [1m[36mSQL (15.9ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (17.4ms)[0m  DELETE FROM countries
+  [1m[36mSQL (15.8ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM fish
+  [1m[36mSQL (15.9ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (16.6ms)[0m  DELETE FROM pets
+  [1m[36mSQL (15.0ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (14.5ms)[0m  DELETE FROM planets
+  [1m[36mSQL (16.9ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (17.6ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (17.9ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (15.8ms)[0m  DELETE FROM people
+  [1m[36mSQL (16.1ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (15.4ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM planets
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM people
+  [1m[36mSQL (9.8ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (10.2ms)[0m  DELETE FROM universes
+  [1m[36mSQL (9.2ms)[0m  [1mDELETE FROM planets[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM countries
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM oceans[0m
+  [1m[35mSQL (16.8ms)[0m  DELETE FROM fish
+  [1m[36mSQL (23.6ms)[0m  [1mDELETE FROM people[0m
+  [1m[35mSQL (24.8ms)[0m  DELETE FROM pets
+  [1m[36mSQL (11.4ms)[0m  [1mDELETE FROM universes[0m
+  [1m[35mSQL (9.7ms)[0m  DELETE FROM planets
+  [1m[36mSQL (10.1ms)[0m  [1mDELETE FROM countries[0m
+  [1m[35mSQL (9.8ms)[0m  DELETE FROM oceans
+  [1m[36mSQL (9.9ms)[0m  [1mDELETE FROM fish[0m
+  [1m[35mSQL (9.7ms)[0m  DELETE FROM people
+  [1m[36mSQL (10.4ms)[0m  [1mDELETE FROM pets[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "universes" ("name") VALUES ('main')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "planets" ("name", "universe_id") VALUES ('earth', 1)
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "planets" ("name", "universe_id") VALUES ('mars', 1)[0m

@@ -1,17 +1,22 @@
 require File.expand_path('../spec_helper', __FILE__)
 
-describe "smuggle" do
+describe "Smuggle" do
   before(:each) do
     clean_database!
   end
   
-  it "should have smuggle defined" do
-    a = Universe.new
-    a.name = "hey"
-    a.save
-    a.reload
-    puts a.inspect
-  end
+  describe "association reflection" do
+    before(:each) do
+      clean_database!
+      @universe = Universe.create(:name => "main")
+      @earth = @universe.planets.create(:name => "earth")
+      @mars = @universe.planets.create(:name => "mars")
+    end
 
+    it "earth is associated to Country, Pets, Oceans, Fish, Person" do
+      @smuggle = Smuggle.new(@earth)
+      @smuggle.associated_models.should eql [Country, Person, Pet, Ocean, Fish] 
+    end
+  end
 
 end

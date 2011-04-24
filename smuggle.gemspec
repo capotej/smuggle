@@ -1,18 +1,20 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "smuggle/version"
 
 Gem::Specification.new do |s|
   s.name        = "smuggle"
-  s.version     = Smuggle::VERSION
+  s.version     = "0.0.1"
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["Julio Capote"]
+  s.email       = ["jcapote@gmail.com"]
+  s.homepage    = "http://www.github.com/capotej/smuggle"
+  s.summary     = %q{Import/Export model and association data easily from one place to another}
+  s.description = %q{Import/Export model and association data easily from one place to another}
 
   s.rubyforge_project = "smuggle"
+  		      
+  s.add_dependency 'gibberish'
+  s.add_dependency 'gist'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

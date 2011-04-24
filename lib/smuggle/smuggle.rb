@@ -1,0 +1,4 @@
+class Smuggle
+
+  
+end
